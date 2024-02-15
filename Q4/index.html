@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title> Example of a form </title>
+    </head>
+    <body>
+        <h2> Register Form</h2>
+    <hr />
+    <form method = "get" action = "">
+        <p>
+        <label><strong>Name</strong>: 
+        <input name = "name" type = "text" size = "25" />
+        </label></p>
+        <p>
+            <label><strong>Address</strong>: <br /> 
+            <textarea name = "address" row = "4" cols = "32">please type your full address here.
+            </textarea></label></p>
+        <p>
+            <strong>Status</strong>:
+            <label><input name = "status" type = "radio" value = "member" /> Member </label>
+            <label><input name = "status" type = "radio" value = "non-member" checked = "checked"/> Non-Member </label>
+        </p>
+        <p>
+            <label><strong>Age</strong>:
+            <select name = "age">
+                <option> &lt; 18</option>
+                <option selected = "selected">18 - 25</option>
+                <option>36 - 65</option>
+                <option> &gt; 65</option>
+            </select>
+            <hr />
+            </label>
+        </p>
+    </form>
+    </body>
+</html>
